@@ -3,7 +3,8 @@ name: "Hello World"
 on: [push]
 
 jobs:
-  sample: Hellow World Job
+  sample: 
+  name: Hellow World Job
   runs-on: ubuntu-latest
   steps:
     - run: echo "Hello World!!!?"
